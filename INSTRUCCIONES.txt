@@ -1,0 +1,27 @@
+para correr el programa:
+
+mvn clean install exec:java
+
+/*****************************************************/
+El programa está preparado para correr inicialmente con:
+
+5 operadores
+3 supervisores
+2 directores
+20 llamadas concurrentes
+
+Para cambiar parametros dirigirse:
+
+src\main\java\almundo\ejerciciobackend\Constants.java
+
+y modificar las variables que se crean correspondientes.
+
+/*****************************************************/
+
+El programa resuelve el problema de llamadas cuando no hay empleados disponibles dejando a la espera
+que se libere uno. Se asoció sobre que pasaba cuando no habia empleados disponibles en un call center
+para simular una situación real.
+
+/*****************************************************/
+
+Las imagenes de diagramas utilizados estan en la carpeta raíz del proyecto.
